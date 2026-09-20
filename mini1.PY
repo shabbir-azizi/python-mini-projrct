@@ -33,12 +33,23 @@
 
 # print("Bitwise or :| ", 5 | 2)
 
+# a = 5
+# b = 3
+
+# print(a & b)   
+# print(a | b)  
+# print(a ^ b)  
+# print(~a)      
+# print(a << 1)  
+# print(a >> 1)  
+
+
 a = 5
 b = 3
 
-print(a & b)   # 1
-print(a | b)   # 7
-print(a ^ b)   # 6
-print(~a)      # -6
-print(a << 1)  # 10
-print(a >> 1)  # 2
+print("AND:", a & b)
+print("OR:", a | b)
+print("XOR:", a ^ b)
+print("NOT:", ~a)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
