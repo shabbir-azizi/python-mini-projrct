@@ -61,7 +61,4 @@ print("NOT:", ~a)
 print("Left Shift:", a << 1)
 print("Right Shift:", a >> 1)
 
-
-
-
-
+print( 'hellow','world')
