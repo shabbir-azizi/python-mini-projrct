@@ -85,3 +85,20 @@ print(name, type(name))
 
 is_student = True
 print(is_student, type(is_student))
+
+# age = 20
+# print(age, type(age))
+
+# score = 80.5
+# print(isinstance(score, float))
+
+# my_str = "Hello world"
+
+# print(my_str[0])  # H
+# print(my_str[6])  # w
+# print(my_str[-1])
+# my_str = 'Hello world'
+# print(my_str[8:])
+# my_str = 'Hello world'
+# print(my_str[:7])
+
