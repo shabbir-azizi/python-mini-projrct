@@ -119,3 +119,8 @@ print(is_student, type(is_student))
 # input("what is your age :")
 # if  (age >= 18 ):
 #     print("you are above of 18")
+message = 'Python is fun!'
+
+print(message[0:6])  
+print(message[7:])  
+print(message[::2]) 
