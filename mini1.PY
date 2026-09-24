@@ -108,3 +108,14 @@ print(is_student, type(is_student))
 # print(my_str[::-1]) # dlrow olleH
 # my_str = 'hello world'
 
+# replaced_my_str = my_str.replace('hello', 'hi')
+# print(replaced_my_str)  # hi world
+# my_str = '  hello world  '
+
+# trimmed_my_str = my_str.strip()
+# print(trimmed_my_str) 
+
+# age =11
+# input("what is your age :")
+# if  (age >= 18 ):
+#     print("you are above of 18")
