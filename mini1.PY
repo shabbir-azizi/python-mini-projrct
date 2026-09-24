@@ -102,3 +102,9 @@ print(is_student, type(is_student))
 # my_str = 'Hello world'
 # print(my_str[:7])
 
+# my_str = 'Hello world'
+# print(my_str[1:4])
+# my_str = 'Hello world'
+# print(my_str[::-1]) # dlrow olleH
+# my_str = 'hello world'
+
