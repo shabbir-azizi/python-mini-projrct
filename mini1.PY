@@ -22,37 +22,37 @@ elif operator == "%":
 
 
 
-# print("Result :",result)
+print("Result :",result)
 
 
-# print (True+ True)
-# print(True+ False)
+print (True+ True)
+print(True+ False)
 
 
-# print ("Bitwise and : 8 ", 5 & 2)
+print ("Bitwise and : 8 ", 5 & 2)
 
-# print("Bitwise or :| ", 5 | 2)
+print("Bitwise or :| ", 5 | 2)
 
-# a = 5
-# b = 3
+a = 5
+b = 3
 
-# print(a & b)   
-# print(a | b)  
-# print(a ^ b)  
-# print(~a)      
-# print(a << 1)  
-# print(a >> 1)  
+print(a & b)   
+print(a | b)  
+print(a ^ b)  
+print(~a)      
+print(a << 1)  
+print(a >> 1)  
 
 
-# a = 5
-# b = 3
+a = 5
+b = 3
 
-# print("AND:", a & b)
-# print("OR:", a | b)
-# print("XOR:", a ^ b)
-# print("NOT:", ~a)
-# print("Left Shift:", a << 1)
-# print("Right Shift:", a >> 1)
+print("AND:", a & b)
+print("OR:", a | b)
+print("XOR:", a ^ b)
+print("NOT:", ~a)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
 
 # print("AND:", a & b)
 # print("OR:", a | b)
