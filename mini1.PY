@@ -54,16 +54,16 @@ print("NOT:", ~a)
 print("Left Shift:", a << 1)
 print("Right Shift:", a >> 1)
 
-# print("AND:", a & b)
-# print("OR:", a | b)
-# print("XOR:", a ^ b)
-# print("NOT:", ~a)
-# print("Left Shift:", a << 1)
-# print("Right Shift:", a >> 1)
+print("AND:", a & b)
+print("OR:", a | b)
+print("XOR:", a ^ b)
+print("NOT:", ~a)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
 
-# print( 'hellow','world')
-# my_integer_var = 10
-# print('Integer:', my_integer_var)
+print( 'hellow','world')
+my_integer_var = 10
+print('Integer:', my_integer_var)
 
 my_float_var = 4.50
 print('Float:', my_float_var)
