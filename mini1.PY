@@ -124,3 +124,22 @@ message = 'Python is fun!'
 print(message[0:6])  
 print(message[7:])  
 print(message[::2]) 
+int_1 = 56
+int_2 = 12
+float_1 = 5.4
+float_2 = 12.0
+
+
+print('Integer Addition:', int_1 + int_2) 
+
+print('Float Addition:', float_1 + float_2) 
+
+print('Int Subtraction:', int_1 - int_2) 
+
+print('Float Subtraction:',  float_2 - float_1) 
+
+print('Int Multiplication:', int_1 * int_2) 
+print('Float Multiplication:', float_2 * float_1) 
+
+print('Division:', int_1 / int_2) 
+print('Float Division:', float_2 / float_1) 
