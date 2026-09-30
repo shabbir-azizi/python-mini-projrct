@@ -14,4 +14,14 @@ medical_records = [
         'diagnosis': 'Type 2 Diabetes',
         'medications': ['Metformin', 'Insulin'],
         'last_visit_id': 'v2302',
-    },]
+    },
+    
+     {
+        'patient_id': 'P1003',
+        'age': 29,
+        'gender': 'female',
+        'diagnosis': 'Asthma',
+        'medications': ['Albuterol'],
+        'last_visit_id': 'v2303',
+    },
+    ]
