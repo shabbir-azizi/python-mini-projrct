@@ -88,3 +88,11 @@ elif username != "Shabbir":
 else:
     print("Wrong password")
 
+    marks = 85
+
+if marks >= 80:
+    print("Excellent")
+elif marks >= 60:
+    print("Good")
+else:
+    print("Need improvement")
