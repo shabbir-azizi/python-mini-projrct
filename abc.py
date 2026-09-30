@@ -76,3 +76,15 @@ medical_records = [
         'medications': ['Lisinopril'],
         'last_visit_id': 'V2301',
     }]
+
+
+username = "Shabbir"
+password = "1234"
+
+if username == "Shabbir" and password == "1234":
+    print("Login successful")
+elif username != "Shabbir":
+    print("Wrong username")
+else:
+    print("Wrong password")
+
