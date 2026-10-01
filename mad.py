@@ -15,8 +15,7 @@ medical_records = [
         'medications': ['Metformin', 'Insulin'],
         'last_visit_id': 'v2302',
     },
-    
-     {
+    {
         'patient_id': 'P1003',
         'age': 29,
         'gender': 'female',
@@ -24,8 +23,6 @@ medical_records = [
         'medications': ['Albuterol'],
         'last_visit_id': 'v2303',
     },
-
-
     {
         'patient_id': 'p1004',
         'age': 56,
@@ -33,7 +30,7 @@ medical_records = [
         'diagnosis': 'Chronic Back Pain',
         'medications': ['Ibuprofen', 'Physical Therapy'],
         'last_visit_id': 'V2304',
-    }
+    }   
 ]
 
 def validate(data):
@@ -44,13 +41,20 @@ def validate(data):
         return False
         
     is_invalid = False
+    key_set = set(
+        ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']
+    )
 
     for index, dictionary in enumerate(data):
         if not isinstance(dictionary, dict):
             print(f'Invalid format: expected a dictionary at position {index}.')
             is_invalid = True
-            
+
+        
+
     if is_invalid:
         return False
     print('Valid format.')
     return True
+
+validate(medical_records)
