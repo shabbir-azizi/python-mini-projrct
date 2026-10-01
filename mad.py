@@ -24,4 +24,22 @@ medical_records = [
         'medications': ['Albuterol'],
         'last_visit_id': 'v2303',
     },
-    ]
+
+
+    {
+        'patient_id': 'p1004',
+        'age': 56,
+        'gender': 'Male',
+        'diagnosis': 'Chronic Back Pain',
+        'medications': ['Ibuprofen', 'Physical Therapy'],
+        'last_visit_id': 'V2304',
+    }
+]
+
+def validate(data):
+    is_sequence = isinstance(data, (list, tuple))
+
+    if not is_sequence:
+        print('Invalid format: expected a list or tuple.')
+        return False
+ 
