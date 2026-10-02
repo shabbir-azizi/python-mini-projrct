@@ -65,3 +65,9 @@ validate(medical_records)
     return True
 
 validate(medical_records)
+    if is_invalid:
+        return False
+    print('Valid format.')
+    return True
+
+validate(medical_records)
