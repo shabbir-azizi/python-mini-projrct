@@ -95,3 +95,14 @@ cos_value = cos(angle_radians)
 
 print(sine_value)
 print(cos_value) 
+
+pizza = {
+    'name': 'Margherita Pizza',
+    'price': 8.9,
+    'calories_per_slice': 250
+}
+
+pizza.keys()
+# dict_keys(['name', 'price', 'calories_per_slice'])
+
+pizza.values()
