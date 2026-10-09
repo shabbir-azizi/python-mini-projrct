@@ -21,3 +21,17 @@ clean_name = messy_name.strip().title()
 print(f"Cleaned name: '{clean_name}'")
 
 
+messy_email = '  SARAH.DAVIS@COMPANY.COM  '
+clean_email = messy_email.strip().lower()
+print(f"Original email: '{messy_email}'")
+print(f"Cleaned email: '{clean_email}'")
+
+name_badge = clean_name.upper()
+print(f'Name badge: {name_badge}')
+
+at_pos = clean_email.find('@')
+email_user = clean_email[:at_pos]
+
+print(f'Email: {clean_email}')
+print(f'Username: {email_user}')
+
