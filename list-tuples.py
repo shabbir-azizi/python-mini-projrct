@@ -1,10 +1,10 @@
-# list = ["shabbir" ,"karachi" ,"mango"]
-# print(list.append("pakistan"))
-# print(list.sort(reverse=True))
-# list.reverse()
-# print(list)
+list = ["shabbir" ,"karachi" ,"mango"]
+print(list.append("pakistan"))
+print(list.sort(reverse=True))
+list.reverse()
+print(list)
 
-# list =[1, 2, 3, 5]
+list =[1, 2, 3, 5]
 list.pop(3)
 print(list)
 # pthon documentation
