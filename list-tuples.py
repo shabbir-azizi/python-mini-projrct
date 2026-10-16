@@ -27,3 +27,5 @@ print(tup.count(4))
 
 
 
+
+
