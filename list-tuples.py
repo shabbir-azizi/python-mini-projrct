@@ -36,3 +36,4 @@ print(max(marks))
 print(min(marks))
 marks.append(92)
 print(marks)
+
