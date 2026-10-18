@@ -29,3 +29,10 @@ print(tup.count(4))
 
 
 
+marks =[99, 100, 96, 89]
+print (marks)
+print(marks[1:3])
+print(max(marks))
+print(min(marks))
+marks.append(92)
+print(marks)
