@@ -24,3 +24,5 @@ def decrypt(text, shift):
 encrypted_text = caesar('freeCodeCamp', 3)
 print(encrypted_text)
 
+a,*b = (1,2,3,4)
+print(b)
