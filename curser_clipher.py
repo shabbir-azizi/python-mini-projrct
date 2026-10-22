@@ -38,9 +38,9 @@
 
 # fruit = ['apple ','banana', 'chery']
 # fruit.pop(1)
-# print(fruit)
-text = 'False'
-if text == True:
-    print('True')
-else :
-    print('False')
+# # print(fruit)
+# text = 'False'
+# if text == True:
+#     print('True')
+# else :
+#     print('False')
