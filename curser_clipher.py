@@ -32,15 +32,15 @@ print(b)
 
 
 
-# f = lambda x: x + 2
-# g = lambda x: f(x) *2
-# print(g(3))
+f = lambda x: x + 2
+g = lambda x: f(x) *2
+print(g(3))
 
-# fruit = ['apple ','banana', 'chery']
-# fruit.pop(1)
-# # print(fruit)
-# text = 'False'
-# if text == True:
-#     print('True')
-# else :
-#     print('False')
+fruit = ['apple ','banana', 'chery']
+fruit.pop(1)
+# print(fruit)
+text = 'False'
+if text == True:
+    print('True')
+else :
+    print('False')
