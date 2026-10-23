@@ -44,3 +44,9 @@ if text == True:
     print('True')
 else :
     print('False')
+
+studenttuple =("asd", "qwe", "bnp","ajk")
+print(type(studenttuple))
+print(studenttuple.index("ajk"))
+print(studenttuple.count("bnp"))
+print(len(studenttuple))
