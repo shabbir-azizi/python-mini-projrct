@@ -62,8 +62,11 @@ print(type(programingLisr))
 programingLisr = set(programingLisr)
 print(type(programingLisr))
 
-fruits = ['apple','mango']
+fruits = ['apple','mango','3']
 for f in fruits :
     print(f)
     print(fruits[1])
     print(fruits[0])
+    print(fruits[-1])
+    print(fruits[-2])
+    print(fruits[-3])
