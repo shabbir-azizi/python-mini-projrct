@@ -55,3 +55,9 @@ print(len(studenttuple))
 def total (*num):
     return len (num)
 print(total((4,8,15)))
+
+programingLisr =["A","B","C","D","E"]
+print(type(programingLisr))
+
+programingLisr = set(programingLisr)
+print(type(programingLisr))
