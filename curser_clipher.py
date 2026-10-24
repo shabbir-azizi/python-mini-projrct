@@ -50,3 +50,8 @@ print(type(studenttuple))
 print(studenttuple.index("ajk"))
 print(studenttuple.count("bnp"))
 print(len(studenttuple))
+
+
+def total (*num):
+    return len (num)
+print(total((4,8,15)))
