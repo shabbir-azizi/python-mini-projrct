@@ -73,5 +73,12 @@ for f in fruits :
 
 s = {1, 2, 2, 3}
 s.add(True)
-# s.add (4)
+s.add (4)
 print(len(s))
+
+n = 1
+while n<=16:
+    print(n, end="")
+    n =n *2
+else:
+    print("done")
