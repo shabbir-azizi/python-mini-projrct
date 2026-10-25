@@ -70,3 +70,8 @@ for f in fruits :
     print(fruits[-1])
     print(fruits[-2])
     print(fruits[-3])
+
+s = {1, 2, 2, 3}
+s.add(True)
+# s.add (4)
+print(len(s))
