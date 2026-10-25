@@ -87,3 +87,7 @@ def f (n):
     n * 2
 x = f (4)
 print(x)
+def f (n):
+    n * 2
+x = f (4)
+print(x)
