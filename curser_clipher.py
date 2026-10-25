@@ -91,3 +91,8 @@ def f (n):
     n * 2
 x = f (4)
 print(x)
+
+s = "aabbaa"
+s = s.replace("aa","bb")
+s = s.replace("bb","c")
+print(s)
