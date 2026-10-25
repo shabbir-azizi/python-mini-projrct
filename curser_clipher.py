@@ -82,3 +82,8 @@ while n<=16:
     n =n *2
 else:
     print("done")
+
+def f (n):
+    n * 2
+x = f (4)
+print(x)
