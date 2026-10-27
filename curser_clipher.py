@@ -165,3 +165,24 @@ s = s.replace("aa","bb")
 s = s.replace("bb","c")
 print(s)
 
+n = 1
+while n<=16:
+    print(n, end="")
+    n =n *2
+else:
+    print("done")
+
+def f (n):
+    n * 2
+x = f (4)
+print(x)
+def f (n):
+    n * 2
+x = f (4)
+print(x)
+
+s = "aabbaa"
+s = s.replace("aa","bb")
+s = s.replace("bb","c")
+print(s)
+
